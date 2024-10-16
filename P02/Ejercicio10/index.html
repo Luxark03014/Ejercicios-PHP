@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta de Evaluación de Conferencias</title>
+</head>
+<body>
+<h1>Evaluación de Conferencias</h1>
+<form action="procesar_encuesta.php" method="get">
+    <label for="conference">Selecciona la conferencia:</label>
+    <select name="conference" required>
+        <option value="conf1">MiduFest</option>
+        <option value="conf2">Hackaton</option>
+        <option value="none">Ninguna de las anteriores</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Enviar Evaluación">
+</form>
+</body>
+</html>
